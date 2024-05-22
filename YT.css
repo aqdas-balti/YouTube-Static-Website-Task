@@ -15,6 +15,33 @@ header .inner-header {
   margin-top: 15px;
   background-color: aquamarine;
 }
+header .inner-header .input {
+  height: 35px;
+  width: 520px;
+  margin-top: 13px;
+  margin-left: 20%;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  font-size: large;
+}
+header .inner-header i {
+  position: relative;
+  left: 12px;
+  font-size: x-large;
+  width: 80px;
+}
+header .inner-header .search-button {
+  height: 37px;
+  width: 60px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+header .inner-header .search-button .fa-magnifying-glass {
+  text-align: center;
+  position: relative;
+  right: 10px;
+}
+
 nav {
   height: 100%;
   width: 150px;
